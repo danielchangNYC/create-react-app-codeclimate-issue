@@ -1,0 +1,20 @@
+---
+engines:
+  eslint:
+    enabled: true
+    channel: eslint-3
+    extensions:
+    - ".js"
+  duplication:
+    enabled: false
+    config:
+      languages:
+      - javascript
+ratings:
+  paths:
+  - "**.js"
+exclude_paths:
+- "**/vendor/**"
+- "**/__tests__/**"
+- public
+- node_modules
